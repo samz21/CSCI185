@@ -22,6 +22,43 @@ body {
     line-height: 1.5em;
 }
 
+header {
+    padding: 25px 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+
+}
+
+nav{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    text-transform: uppercase;
+
+}
+
+main{
+    padding: 100px 25vw 50px 25vw;  
+    min-height: 55vh;
+
+}
+
+.landing{
+    background: white;
+    padding: 50px 15vw 100px 15vw;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.landing img{
+    
+}
+
 
 /****************************/
 /* Student Style Rules Here */

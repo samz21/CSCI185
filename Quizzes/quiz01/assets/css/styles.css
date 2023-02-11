@@ -33,7 +33,7 @@ header img{
     width: 180px;
 }
 
-nav{
+nav a{
     color: white;
     text-decoration: none;
     margin: 10px;
@@ -41,7 +41,7 @@ nav{
 }
 
 main{
-    padding: 100px 25vw 50px 25vw;  
+    padding: 100px 25vw 50px 25vw;
     min-height: 55vh;
 }
 
@@ -52,10 +52,11 @@ main{
     grid-template-columns: 60% 40%;
     align-items: center;
     justify-content: center;
+}
 
- img{{
+ img{
     width: 100%;
-}}
+}
 
 h1, h2{
     font-family: Malamondo;
@@ -64,14 +65,14 @@ h1, h2{
     text-align: center;
 }
 
-.landing h1{
+ h1{
     color: black;
     line-height: 1.2em;
     font-size: 1.7em;
     font-family: Malamondo-Alt;
 }
 
- a{
+  a{
     text-align: center;
     background-color: #013672;
     color: white;

@@ -4,11 +4,28 @@
 }
 
 body {
+    color: rgb(34, 61, 34);
     margin: 0px;
     font-family: Arial, sans-serif;
+    background-color: rgb(116, 152, 116);
+}
+
+header {
+    padding: 25px 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main{
+    padding: 100px 25vw 50px 25vw;
+    min-height: 55vh;
 }
 
 p, a, li {
     line-height: 1.5em;
     font-size: 1.1em;
 }
+
+
+

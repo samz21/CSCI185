@@ -4,28 +4,56 @@
 }
 
 body {
-    color: rgb(34, 61, 34);
+    color: white;
     margin: 0px;
     font-family: Arial, sans-serif;
-    background-color: rgb(116, 152, 116);
+}
+#myVideo{
+    width: 100vw;
+    height: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 header {
-    padding: 25px 13vw;
+    padding: 20px 13vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+
 }
 
 main{
-    padding: 100px 25vw 50px 25vw;
-    min-height: 55vh;
+    padding: 70px 20vw 100px 25vw;
+    min-height: 20vh;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(3,33%);
 }
+
+
+  
 
 p, a, li {
     line-height: 1.5em;
     font-size: 1.1em;
 }
 
+footer{
+    padding: 80px;
+    text-align: center;
+   
+}
 
 
+@media screen and (max-width: 800px) {
+    .text-container {
+        background-color: rgba(255, 255, 255, 0.95);
+        width: calc(100vw - 100px);
+    }

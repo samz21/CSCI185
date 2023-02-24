@@ -2,41 +2,57 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- stylesheets and metadata go here -->
-       <title>My CSCI 185 Homepage</title>       
-       <link rel="stylesheet" href="sytles.css">
+        <link rel="stylesheet" href="sytles.css">  
    </head>
+
    <body>
+    <!--The Video Background-->
+    <section class="video-container">
+        <video autoplay muted loop id="myVideo">
+            <source src="Tutorials /tutorial05/pexels-mikhail-nilov-6981411.mp4" type="video/mp4">
+        </video>
+    </section>
+    
        <!-- HTML content tags go here. Change anything you want! -->
+      <!--Title goes here-->
        <header>
            <h1>Sam's CSCI 185 Homepage</h1>
-       </header> 
-
+       </header>
+       <!-- Main content goes here-->
        <main>
+            <!-- Semantic section to hold all of the sections-->
             <section id="tutorials">
+                
                 <h2>Tutorials</h2>
+                <div class="text-container">
                 <ul>
                     <li>
                         <a href="Tutorials /tutorial 02/index.html">Tutorial 2</a>
                     </li>
                     <li>  <a href="Tutorials /tutorial04/index.html">Tutorial 4</a></li>
-                    </ul>
-               
+                </ul>
+            </div>
             </section>
 
             <section id="homework">
                 <h2>Homework</h2>
-                <ul>
+                <div class="text-container">
+                 <ul>
                     <li>Homework 1</li>
                     <li>Homework 2</li>
                     <li>Homework 3</li>
                     <li>Homework 4</li>
                     <li>Homework 5</li>
                 </ul>
+                </div>
             </section>
 
             <section id="inspiration">
                 <h2>Design Inspiration</h2>
+                <div class="text-container">
                 <ul>
                     <li></li>
                     <li></li>
@@ -44,32 +60,42 @@
                     <li></li>
                     <li></li>
                 </ul>
-               
+                </div>
             </section>
 
             <section id="Quizzes">
                 <h2>Quizzes</h2>
+                <div class="text-container">
                 <ul>
                     <li>
                         <a href="Quizzes/quiz01/index.html">Quiz 1</a>
                     </li>
                 </ul>
+                </div>
             </section>       
 
             <section id="class-exercises">
                 <h2>Class Exercises</h2>
+                <div class="text-container">
                 <ul>
                     <li><a href="Lectures/lecture04/index.html">Lecture 4 Activity</a>
 
                     </li>
                 </ul>
+                </div>
             </section>
 
             <section id="Projects">
                 <h2> Projects</h2>
+                <div class="text-container">
                 <p> Coming Soon!</p>
+                </div>
             </section>
 
         </main>
    </body>
+
+   <footer>
+    Copyright Samantha Zuniga, 2023.
+   </footer>
 </html>
